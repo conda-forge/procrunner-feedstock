@@ -1,5 +1,5 @@
 {% set name = "procrunner" %}
-{% set version = "0.9.0" %}
+{% set version = "0.9.1" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,9 +7,9 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0b1d89de9a1d6b044271a874ce030e92db6dbff13c54fecea3abc547740700ea
+  sha256: 817e09be4dc73a45ac8142cc5dfabd7e66e9b9ae3fdbc0a443fb6449d26bed11
 build:
-  number: 1050
+  number: 0
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv "
 
 requirements:
