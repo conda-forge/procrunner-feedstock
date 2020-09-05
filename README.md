@@ -5,7 +5,7 @@ Home: https://github.com/DiamondLightSource/python-procrunner
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Versatile utility function to run external processes
 
