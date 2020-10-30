@@ -1,5 +1,5 @@
 {% set name = "procrunner" %}
-{% set version = "2.2.0" %}
+{% set version = "2.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,18 +7,18 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b37e2f4e83f6251621e2b446dc52a51fd43a8cbfc0367f82fea6c52fccdf0043
+  sha256: ed7dbbae37c48c4c499c1c7ef2fa76c92579d447ffc162a03ff04c65be40e2fd
 build:
   number: 0
   noarch: python
-  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv '
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
   run:
-    - python
+    - python >=3.6
 
 test:
   imports:
