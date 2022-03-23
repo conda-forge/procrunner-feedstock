@@ -1,5 +1,5 @@
 {% set name = "procrunner" %}
-{% set version = "2.3.2" %}
+{% set version = "2.3.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3626560e8ad34e4dccf2d9fca4f999242c3b875ed596c20a6c82541a6e2888de
+  sha256: 1717cbd7ac70876d1804777bf5775ceae1ea6a7b95c84d1d4423f0442d9e5b12
 build:
   number: 0
   noarch: python
