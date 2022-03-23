@@ -5,7 +5,7 @@ Home: https://github.com/DiamondLightSource/python-procrunner
 
 Package license: BSD-3-Clause
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/procrunner-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/procrunner-feedstock/blob/main/LICENSE.txt)
 
 Summary: Versatile utility function to run external processes
 
@@ -19,8 +19,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4849&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/procrunner-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4849&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/procrunner-feedstock?branchName=main">
       </a>
     </td>
   </tr>
@@ -121,4 +121,6 @@ Feedstock Maintainers
 =====================
 
 * [@anthchirp](https://github.com/anthchirp/)
+* [@ndevenish](https://github.com/ndevenish/)
+* [@rjgildea](https://github.com/rjgildea/)
 
